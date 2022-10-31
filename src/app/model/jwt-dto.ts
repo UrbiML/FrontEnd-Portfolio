@@ -1,8 +1,7 @@
 export class JwtDto {
     token!: string;
-
-    constructor(token: string){
-        this.token = token;
-    }
+    type!: string;
+    nombreUsuario! : string;
+    authorities!: string[];
 }
 
